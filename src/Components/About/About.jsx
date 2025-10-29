@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import sectionStar from "../../assets/img/about/section-star.png";
 import Experience from "./Experience";
@@ -56,9 +56,14 @@ const About = () => {
               data-aos-duration="1000"
             />
             <p className="descrp" data-aos="fade-up" data-aos-duration="1500">
-              I'm David Matias, I'm a Brand & Webflow Designer, Currently
-              residing in the lush Victoria Street London, Matias operates
-              globally and is ready to take on any design challenge.
+              I'm <strong>Ahmad Hassan</strong>, a passionate{" "}
+            <strong>Software Engineer</strong> and{" "}
+            <strong>React.js & Frontend Developer</strong> from Pakistan.
+            I specialize in building high-performance, responsive web
+            applications using <strong>React.js</strong>,{" "}
+            <strong>Next.js</strong>, and <strong>WordPress</strong>.
+            My goal is to create modern, user-focused digital solutions
+            that help businesses grow and stand out online.
             </p>
           </div>
           <div className="singletab">
