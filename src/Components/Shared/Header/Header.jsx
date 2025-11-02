@@ -118,7 +118,7 @@ const Header = () => {
                   <HashLink smooth to={`${path}${section ? section : ""}`}>
                     {name}
                   </HashLink>
-                  {dropDown?.length && (
+                  {/* {dropDown?.length && (
                     <ul className={`sub-menu ${dropDownId === id ? "sub-menu_active":""}`}>
                       {dropDown.map(({ id, name, path }) => {
                         return (
@@ -130,7 +130,7 @@ const Header = () => {
                         );
                       })}
                     </ul>
-                  )}
+                  )} */}
                 </li>
               );
             })}
