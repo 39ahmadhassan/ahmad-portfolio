@@ -14,7 +14,7 @@ import scrollDown from "../../assets/img/banner/scroll-down.png";
 import dial from "../../assets/img/banner/dial.png";
 import bnArrow from "../../assets/img/banner/bn-arrow.png";
 import VideoPlay from "../Shared/VideoPlay/VideoPlay";
-import resumeFile from "../../assets/files/Ahmad_Hassan_Resume.pdf";
+
 
 const socalIcon = [
   {
@@ -43,7 +43,6 @@ const socalIcon = [
     link: "https://instagram.com/",
   },
 ];
-
 const Banner = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [position, setPosition] = useState(false);
@@ -80,28 +79,26 @@ const Banner = () => {
                   Software <br/> Engineer
                 </span>
               </h1>          */}
-<h1>
-  <span className="hone">Ahmad Hassan</span>
-  <span className="d-block designers" data-text={`Software\nEngineer`}>
-    <span>Software</span>
-    <span className="d-block">Engineer</span>
-  </span>
-</h1>
-                           <div className="video__area mt-4">
+              <h1>
+                <span className="hone">Ahmad Hassan</span>
+                <span className="d-block designers" data-text={`Software\nEngineer`}>
+                  <span>Software</span>
+                  <span className="d-block">Engineer</span>
+                </span>
+              </h1>
+              <div className="video__area mt-4">
                 <img src={bnArrow} className="vid__arrow" alt="arrow" />
                 <div className="video__80 video-btn">
-                    <a
-                      href={resumeFile}
-                      download="Ahmad_Hassan_Resume.pdf"
-                      className="text-white d-flex align-items-center gap-2"
-                      style={{ textDecoration: "none" }}
-                    >
-                      <i>
-                        <Download />
-                      </i>
-                    </a>
-                  </div>
-                  <span className="proces">Download Resume</span>
+                  <a
+                    href="/files/Ahmad_Hassan_Resume.pdf"
+                    download="Ahmad_Hassan_Resume.pdf"
+                    className="text-white d-flex align-items-center gap-2"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <i><Download /></i>
+                  </a>
+                </div>
+                <span className="proces">Download Resume</span>
               </div>
             </div>
           </div>
