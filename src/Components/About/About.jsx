@@ -56,7 +56,7 @@ const About = () => {
               data-aos-duration="1000"
             />
             <p className="descrp" data-aos="fade-up" data-aos-duration="1500">
-              I'm <strong>Ahmad Hassan</strong>, a passionate{" "}
+              I&apos;m <strong>Ahmad Hassan</strong>, a passionate{" "}
             <strong>Software Engineer</strong> and{" "}
             <strong>React.js & Frontend Developer</strong> from Pakistan.
             I specialize in building high-performance, responsive web

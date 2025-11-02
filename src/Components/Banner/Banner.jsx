@@ -71,19 +71,23 @@ const Banner = () => {
                 </span>
               </Link>
 
-              <h1>
+              {/* <h1>
                 <span className="hone">Ahmad Hassan</span>
                 <span
                   className="d-block designers"
                   data-text="Software Engineer"
                 >
-                  Software Engineer
+                  Software <br/> Engineer
                 </span>
-              </h1>         
-
-              
-
-              <div className="video__area mt-4">
+              </h1>          */}
+<h1>
+  <span className="hone">Ahmad Hassan</span>
+  <span className="d-block designers" data-text={`Software\nEngineer`}>
+    <span>Software</span>
+    <span className="d-block">Engineer</span>
+  </span>
+</h1>
+                           <div className="video__area mt-4">
                 <img src={bnArrow} className="vid__arrow" alt="arrow" />
                 <div className="video__80 video-btn">
                     <a
